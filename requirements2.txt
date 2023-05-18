@@ -2,5 +2,6 @@ pandas==2.0.1
 numpy
 ipykernel==6.23.1
 numpy==1.24.3
-torch==2.0.1+cu118
 matplotlib==3.7.1
+seaborn
+scikit-learn
