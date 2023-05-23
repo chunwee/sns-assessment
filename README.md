@@ -37,6 +37,7 @@ CMD ["python", "app.py"]
 
 ```
 
+Do note that this Dockerfile uses the CPU version of PyTorch. If GPU is required, please edit the "FROM" parameter to pytorch/pytorch:tag. The tag can be found on https://hub.docker.com/r/pytorch/pytorch/. Make sure to have NVIDIA Container Toolkit installed on the host machine before building the docker image.
   
   
 
