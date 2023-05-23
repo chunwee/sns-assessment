@@ -1,0 +1,13 @@
+pandas==2.0.1
+numpy
+ipykernel==6.23.1
+numpy==1.24.3
+matplotlib==3.7.1
+seaborn
+scikit-learn
+flask
+requests
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.1+cpu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.15.2+cpu
